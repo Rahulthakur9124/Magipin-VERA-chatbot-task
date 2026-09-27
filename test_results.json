@@ -1,0 +1,662 @@
+[
+  {
+    "test_id": "T01",
+    "trigger_id": "trg_013_corporate_thali_planning",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_006_southindiancafe_restaurant_bangalore_active_planning_intent_trg_013_corporate_thali_planning",
+          "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_013_corporate_thali_planning",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Suresh, here’s a starter corporate-thali structure for Mylari South Indian Cafe: use your existing menu/pricing as the anchor, define 10/25/50+ quantity tiers, and set one delivery cutoff. Yes good idea, what would it look like. Want me to turn the package into a 3-line WhatsApp pitch for nearby offices?",
+          "cta": "open_ended",
+          "suppression_key": "planning:m_006:corp_thali:2026-W17",
+          "rationale": "Merchant has explicitly expressed planning intent; respond with a concrete artifact rather than restarting discovery."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T02",
+    "trigger_id": "trg_016_kids_yoga_program_drafting",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_008_zenyoga_gym_chennai_active_planning_intent_trg_016_kids_yoga_program_drafting",
+          "merchant_id": "m_008_zenyoga_gym_chennai",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_016_kids_yoga_program_drafting",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Padma, for the kids-yoga program, I’d start with a short summer batch, age-banded sessions and a simple trial-to-enrolment flow. You asked what it could look like; want me to draft the parent-facing WhatsApp copy using your actual offer catalog?",
+          "cta": "open_ended",
+          "suppression_key": "planning:m_008:kids_yoga:2026-W17",
+          "rationale": "Merchant has explicitly expressed planning intent; respond with a concrete artifact rather than restarting discovery."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T03",
+    "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_019_karim_salon_lucknow_appointment_tomorrow_trg_076_appointment_tomorrow_m_019_karim_salon_lu",
+          "merchant_id": "m_019_karim_salon_lucknow",
+          "customer_id": "c_075_aditya_for_m_019_karim_salon_lucknow",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Aditya, Karim's Salon here. Your appointment is tomorrow. Reply YES if you’d like us to keep it confirmed, or let us know if you need a change.",
+          "cta": "binary_yes_no",
+          "suppression_key": "appointment_tomorrow:m_019_karim_salon_lucknow:gen_76",
+          "rationale": "Appointment reminder uses the customer relationship and a single confirmation action without inventing a time."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T04",
+    "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_020_renu_salon_lucknow_appointment_tomorrow_trg_077_appointment_tomorrow_m_020_renu_salon_luc",
+          "merchant_id": "m_020_renu_salon_lucknow",
+          "customer_id": "c_080_riya_for_m_020_renu_salon_lucknow",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Riya, Beauty Lounge by Renu here. Your appointment is tomorrow. Reply YES if you’d like us to keep it confirmed, or let us know if you need a change.",
+          "cta": "binary_yes_no",
+          "suppression_key": "appointment_tomorrow:m_020_renu_salon_lucknow:gen_77",
+          "rationale": "Appointment reminder uses the customer relationship and a single confirmation action without inventing a time."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T05",
+    "trigger_id": "trg_020_summer_demand_shift",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_009_apollo_pharmacy_jaipur_category_seasonal_trg_020_summer_demand_shift",
+          "merchant_id": "m_009_apollo_pharmacy_jaipur",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_020_summer_demand_shift",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Ramesh, summer demand is shifting for pharmacies: ORS_demand_+40, sunscreen_demand_+38, antifungal_demand_+45. The trigger recommends a shelf-action review. Want me to turn these signals into a short stock-priority checklist?",
+          "cta": "open_ended",
+          "suppression_key": "season:summer:m_009:2026",
+          "rationale": "Connects the seasonal trigger to category-specific action while keeping claims tied to supplied trend data."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T06",
+    "trigger_id": "trg_022_cde_webinar_dentists",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_001_drmeera_dentist_delhi_cde_opportunity_trg_022_cde_webinar_dentists",
+          "merchant_id": "m_001_drmeera_dentist_delhi",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_022_cde_webinar_dentists",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Meera, a new update for dentists is relevant to Dr. Meera's Dental Clinic: IDA Delhi: Digital impressions — 2026 state of the art. Source: IDA Delhi chapter calendar. Want me to turn the useful takeaway into a short customer-facing draft?",
+          "cta": "open_ended",
+          "suppression_key": "cde:dentists:2026-05-02",
+          "rationale": "Anchors the message to the supplied digest item and cites its source; no unsupported research claims are added."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T07",
+    "trigger_id": "trg_019_chronic_refill_grandfather",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_009_apollo_pharmacy_jaipur_chronic_refill_due_trg_019_chronic_refill_grandfather",
+          "merchant_id": "m_009_apollo_pharmacy_jaipur",
+          "customer_id": "c_013_grandfather_for_m009",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_019_chronic_refill_grandfather",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Namaste Mr. Sharma — Apollo Health Plus Pharmacy here. Your regular medicines (metformin, atorvastatin, telmisartan) are due around 28 Apr. Reply YES if you want us to prepare the refill; please tell us if your prescription has changed.",
+          "cta": "binary_yes_no",
+          "suppression_key": "refill:c_013_grandfather_for_m009:2026-04",
+          "rationale": "Uses only supplied medicines and refill timing, with a safe confirmation flow rather than inventing price, dose or stock."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T08",
+    "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_011_dr_sameer_dentist_bangalore_chronic_refill_due_trg_081_chronic_refill_due_m_011_dr_sameer_dent",
+          "merchant_id": "m_011_dr_sameer_dentist_bangalore",
+          "customer_id": "c_044_vivaan_for_m_011_dr_sameer_dentist_bangalore",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Vivaan, Bright Smile Dental here. A refill reminder is due for your account, but the current trigger does not include the medicine list or date. Reply YES if you want us to check it with the pharmacy.",
+          "cta": "binary_yes_no",
+          "suppression_key": "chronic_refill_due:m_011_dr_sameer_dentist_bangalore:gen_81",
+          "rationale": "The trigger is a refill event but lacks medicine/date details, so the bot avoids fabricating them and offers a safe verification step."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T09",
+    "trigger_id": "trg_023_competitor_opened_dentist",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_001_drmeera_dentist_delhi_competitor_opened_trg_023_competitor_opened_dentist",
+          "merchant_id": "m_001_drmeera_dentist_delhi",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_023_competitor_opened_dentist",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Meera, Smile Studio opened 1.3 km away with Dental Cleaning @ ₹199. I’d compare the offer against what you already have before reacting. Want me to draft a focused response using your active offer?",
+          "cta": "open_ended",
+          "suppression_key": "competitor:m_001:smile_studio",
+          "rationale": "Frames competition as a comparison problem and uses only the competitor facts present in the trigger."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T10",
+    "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_006_southindiancafe_restaurant_bangalore_competitor_opened_trg_056_competitor_opened_m_006_southindiancaf",
+          "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Suresh, a nearby competitor signal is active. Rather than matching blindly, want me to compare it with Weekday Lunch Thali @ ₹149 and draft one focused response?",
+          "cta": "open_ended",
+          "suppression_key": "competitor_opened:m_006_southindiancafe_restaurant_bangalore:gen_56",
+          "rationale": "Frames competition as a comparison problem and uses only the competitor facts present in the trigger."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T11",
+    "trigger_id": "trg_008_curious_ask_studio11",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_003_studio11_salon_hyderabad_curious_ask_due_trg_008_curious_ask_studio11",
+          "merchant_id": "m_003_studio11_salon_hyderabad",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_008_curious_ask_studio11",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Lakshmi, circling back on what service in demand this week. I’d use the merchant and category context already supplied, then turn the answer into one concrete next step. Want me to draft it?",
+          "cta": "open_ended",
+          "suppression_key": "curious_ask:m_003:2026-W17",
+          "rationale": "Answers the merchant’s earlier curiosity with a grounded next step instead of reopening discovery."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T12",
+    "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_006_southindiancafe_restaurant_bangalore_curious_ask_due_trg_096_curious_ask_due_m_006_southindiancaf",
+          "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Suresh, circling back on the question you raised. I’d use the merchant and category context already supplied, then turn the answer into one concrete next step. Want me to draft it?",
+          "cta": "open_ended",
+          "suppression_key": "curious_ask_due:m_006_southindiancafe_restaurant_bangalore:gen_96",
+          "rationale": "Answers the merchant’s earlier curiosity with a grounded next step instead of reopening discovery."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T13",
+    "trigger_id": "trg_015_winback_rashmi",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_007_powerhouse_gym_bangalore_customer_lapsed_hard_trg_015_winback_rashmi",
+          "merchant_id": "m_007_powerhouse_gym_bangalore",
+          "customer_id": "c_010_rashmi_for_m007",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_015_winback_rashmi",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Rashmi 👋 PowerHouse Fitness here. It’s been about 57 days since your last visit — no pressure. We remember your weight loss goal. Want us to suggest a simple session to restart? Reply YES.",
+          "cta": "binary_yes_no",
+          "suppression_key": "winback:c_010_rashmi_for_m007",
+          "rationale": "Acknowledges lapse without guilt and uses only the customer state/goals supplied in context."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T14",
+    "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_014_dr_asha_dentist_chandigarh_customer_lapsed_soft_trg_071_customer_lapsed_soft_m_014_dr_asha_dentis",
+          "merchant_id": "m_014_dr_asha_dentist_chandigarh",
+          "customer_id": "c_055_reyansh_for_m_014_dr_asha_dentist_chandigarh",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Reyansh, Asha Dental Care here. It’s been a while since your last visit. No pressure — would you like us to help you plan a convenient next visit? Reply YES.",
+          "cta": "binary_yes_no",
+          "suppression_key": "customer_lapsed_soft:m_014_dr_asha_dentist_chandigarh:gen_71",
+          "rationale": "Acknowledges lapse without guilt and uses only the customer state/goals supplied in context."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T15",
+    "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_049_komal_pharmacie_lucknow_customer_lapsed_soft_trg_072_customer_lapsed_soft_m_049_komal_pharmaci",
+          "merchant_id": "m_049_komal_pharmacie_lucknow",
+          "customer_id": "c_193_reyansh_for_m_049_komal_pharmacie_lucknow",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Reyansh, Daily Care Medicos here. It’s been a while since your last visit. No pressure — would you like us to help you plan a convenient next visit? Reply YES.",
+          "cta": "binary_yes_no",
+          "suppression_key": "customer_lapsed_soft:m_049_komal_pharmacie_lucknow:gen_72",
+          "rationale": "Acknowledges lapse without guilt and uses only the customer state/goals supplied in context."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T16",
+    "trigger_id": "trg_025_dormancy_glamour",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_004_glamour_salon_pune_dormant_with_vera_trg_025_dormancy_glamour",
+          "merchant_id": "m_004_glamour_salon_pune",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_025_dormancy_glamour",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Anjali, it’s been 38 days since we last worked on subscription expiry. I can pick that thread back up using your current profile. Want to continue?",
+          "cta": "open_ended",
+          "suppression_key": "dormant:m_004:30d",
+          "rationale": "Uses the available dormancy context; when the placeholder trigger lacks details, avoids inventing a last topic or interval."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T17",
+    "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_029_anand_restaurant_chandigarh_dormant_with_vera_trg_046_dormant_with_vera_m_029_anand_restaura",
+          "merchant_id": "m_029_anand_restaurant_chandigarh",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Anand, we haven’t worked together recently. I can pick up the next useful task from your current profile. Want to continue?",
+          "cta": "open_ended",
+          "suppression_key": "dormant_with_vera:m_029_anand_restaurant_chandigarh:gen_46",
+          "rationale": "Uses the available dormancy context; when the placeholder trigger lacks details, avoids inventing a last topic or interval."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T18",
+    "trigger_id": "trg_006_festival_diwali",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_003_studio11_salon_hyderabad_festival_upcoming_trg_006_festival_diwali",
+          "merchant_id": "m_003_studio11_salon_hyderabad",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_006_festival_diwali",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Lakshmi, Diwali is coming up in 188 days. For salons, I’d use your existing offers and local demand signals rather than inventing a discount. Want me to draft one festival-ready message?",
+          "cta": "open_ended",
+          "suppression_key": "festival:diwali:2026:m_003",
+          "rationale": "Connects the seasonal trigger to category-specific action while keeping claims tied to supplied trend data."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T19",
+    "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_037_pooja_gym_bangalore_festival_upcoming_trg_061_festival_upcoming_m_037_pooja_gym_bang",
+          "merchant_id": "m_037_pooja_gym_bangalore",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Pooja, a festival-season opportunity is coming up. For gyms, I’d use your existing offers and local demand signals rather than inventing a discount. Want me to draft one festival-ready message?",
+          "cta": "open_ended",
+          "suppression_key": "festival_upcoming:m_037_pooja_gym_bangalore:gen_61",
+          "rationale": "Connects the seasonal trigger to category-specific action while keeping claims tied to supplied trend data."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T20",
+    "trigger_id": "trg_021_unverified_gbp_sunrise",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_010_sunrisepharm_pharmacy_lucknow_gbp_unverified_trg_021_unverified_gbp_sunrise",
+          "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_021_unverified_gbp_sunrise",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Vikas, Sunrise Medicos is still marked unverified on Google Business Profile. The supplied context estimates up to 30% uplift from verification. Want the verification steps in one checklist?",
+          "cta": "open_ended",
+          "suppression_key": "unverified:m_010",
+          "rationale": "Verification is an operational blocker; message uses the supplied status and estimate rather than promising a guaranteed result."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T21",
+    "trigger_id": "trg_010_ipl_match_delhi",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_005_pizzajunction_restaurant_delhi_ipl_match_today_trg_010_ipl_match_delhi",
+          "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_010_ipl_match_delhi",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Suresh, DC vs MI is at Arun Jaitley Stadium today. Before pushing a match-day promo, I’d check whether your current performance/offer context supports it. Want me to draft a targeted message only if there’s a clear fit?",
+          "cta": "open_ended",
+          "suppression_key": "ipl:m_005:2026-04-26",
+          "rationale": "Avoids blindly promoting the event and explicitly conditions the action on merchant context."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T22",
+    "trigger_id": "trg_012_milestone_mylari",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_006_southindiancafe_restaurant_bangalore_milestone_reached_trg_012_milestone_mylari",
+          "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_012_milestone_mylari",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Suresh, you’re at 145 review count and the 150 milestone is close. Want me to draft a small, on-brand push to help you reach it?",
+          "cta": "open_ended",
+          "suppression_key": "milestone:m_006:reviews_150",
+          "rationale": "Uses the supplied milestone value when available and avoids inventing a target."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T23",
+    "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_032_mukesh_restaurant_pune_milestone_reached_trg_041_milestone_reached_m_032_mukesh_restaur",
+          "merchant_id": "m_032_mukesh_restaurant_pune",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Mukesh, you’ve hit a merchant milestone. Want me to turn the achievement into a simple customer-facing post?",
+          "cta": "open_ended",
+          "suppression_key": "milestone_reached:m_032_mukesh_restaurant_pune:gen_41",
+          "rationale": "Uses the supplied milestone value when available and avoids inventing a target."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T24",
+    "trigger_id": "trg_004_perf_dip_bharat",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_002_bharat_dentist_mumbai_perf_dip_trg_004_perf_dip_bharat",
+          "merchant_id": "m_002_bharat_dentist_mumbai",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_004_perf_dip_bharat",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Bharat, calls is down 50% over 7d versus a baseline of 12. I’d diagnose the drop before adding spend. Want me to break down the likely next action from the available signals?",
+          "cta": "open_ended",
+          "suppression_key": "perf_dip:m_002_bharat_dentist_mumbai:calls:2026-W17",
+          "rationale": "Performance-dip trigger is treated as a diagnosis opportunity; missing metric data is not fabricated."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T25",
+    "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_023_sushma_salon_pune_perf_dip_trg_031_perf_dip_m_023_sushma_salon_p",
+          "merchant_id": "m_023_sushma_salon_pune",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Sushma, a performance-dip signal is active. I’d diagnose the drop before changing spend or offers. Want me to break down the likely next action from the available signals?",
+          "cta": "open_ended",
+          "suppression_key": "perf_dip:m_023_sushma_salon_pune:gen_31",
+          "rationale": "Performance-dip trigger is treated as a diagnosis opportunity; missing metric data is not fabricated."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T26",
+    "trigger_id": "trg_024_perf_spike_zen",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_008_zenyoga_gym_chennai_perf_spike_trg_024_perf_spike_zen",
+          "merchant_id": "m_008_zenyoga_gym_chennai",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_024_perf_spike_zen",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Padma, calls is up 15% over 7d, with kids yoga post flagged as the likely driver. Want me to turn the winning signal into a repeatable post or offer?",
+          "cta": "open_ended",
+          "suppression_key": "perf_spike:m_008:calls:2026-W17",
+          "rationale": "Uses the observed spike and supplied driver when available; missing performance numbers are not fabricated."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T27",
+    "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_010_sunrisepharm_pharmacy_lucknow_perf_spike_trg_036_perf_spike_m_010_sunrisepharm_p",
+          "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Vikas, views is up 2% over the last 7d. Want me to turn the winning signal into a repeatable post or offer?",
+          "cta": "open_ended",
+          "suppression_key": "perf_spike:m_010_sunrisepharm_pharmacy_lucknow:gen_36",
+          "rationale": "Uses the observed spike and supplied driver when available; missing performance numbers are not fabricated."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T28",
+    "trigger_id": "trg_003_recall_due_priya",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_001_drmeera_dentist_delhi_recall_due_trg_003_recall_due_priya",
+          "merchant_id": "m_001_drmeera_dentist_delhi",
+          "customer_id": "c_001_priya_for_m001",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_003_recall_due_priya",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Priya 👋 Dr. Meera's Dental Clinic here. Aapka 6 month cleaning recall due hai. Aapke liye Wed 5 Nov, 6pm or Thu 6 Nov, 5pm available hain. Dental Cleaning @ ₹299. Reply YES and I’ll help lock a slot.",
+          "cta": "binary_yes_no",
+          "suppression_key": "recall:c_001_priya_for_m001:6mo",
+          "rationale": "Uses the customer name, due service, real slots, active offer and stated language preference."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T29",
+    "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_008_zenyoga_gym_chennai_recall_due_trg_066_recall_due_m_008_zenyoga_gym_ch",
+          "merchant_id": "m_008_zenyoga_gym_chennai",
+          "customer_id": "c_034_diya_for_m_008_zenyoga_gym_chennai",
+          "send_as": "merchant_on_behalf",
+          "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Hi Diya, Zen Yoga Studio here. A follow-up visit is due based on your account. Reply YES if you’d like us to check the available options.",
+          "cta": "binary_yes_no",
+          "suppression_key": "recall_due:m_008_zenyoga_gym_chennai:gen_66",
+          "rationale": "Recall trigger lacks service/date details, so the bot asks for confirmation without inventing clinical or scheduling facts."
+        }
+      ]
+    }
+  },
+  {
+    "test_id": "T30",
+    "trigger_id": "trg_002_compliance_dci_radiograph",
+    "status": "OK",
+    "output": {
+      "actions": [
+        {
+          "conversation_id": "conv_m_001_drmeera_dentist_delhi_regulation_change_trg_002_compliance_dci_radiograph",
+          "merchant_id": "m_001_drmeera_dentist_delhi",
+          "customer_id": null,
+          "send_as": "vera",
+          "trigger_id": "trg_002_compliance_dci_radiograph",
+          "template_name": "vera_grounded_v1",
+          "template_params": [],
+          "body": "Meera, a compliance update is relevant to Dr. Meera's Dental Clinic: DCI revised radiograph dose limits effective 2026-12-15. Deadline: 15 Dec. Source: Dental Council of India circular 2026-11-04. Want me to turn the required change into a checklist?",
+          "cta": "open_ended",
+          "suppression_key": "compliance:dci_radiograph:2026",
+          "rationale": "Compliance messages lead with the concrete deadline and source instead of using alarmist or unsupported claims."
+        }
+      ]
+    }
+  }
+]
